@@ -102,3 +102,7 @@ if (forma === 'quad') {
 }
 
 console.log(area);
+
+console.log();
+
+
