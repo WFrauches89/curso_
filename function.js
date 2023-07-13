@@ -90,3 +90,91 @@ const sum2LittleNumbrs = (num1, num2) => {
 console.log(sum2LittleNumbrs(5, 18));
 
 
+let linguagens = "JavaScript;Java;C#;PHP;Python;Go;Vb;SQL;C;C++";
+let arrayLinguagens = linguagens.split(";");
+console.log(arrayLinguagens)
+
+let novaString = "Programe nas principais linguagens e plataformas. Explore linguagens como ";
+console.log(novaString.concat("JavaScript,").concat(" Python,").concat(" e C#."))
+
+let nome = "André";
+let comunicacao = " Olá, sr. nomeusurario, informamos que a partir da presente data o senhor tem 50% de desconto em nossa loja.";
+console.log(comunicacao.replace("nomeusurario",nome));
+
+let frase= "Mergulhando em tecnologia."
+console.log(frase.slice(0,11)) // Mergulhando
+
+let frase2= "Mergulhando em tecnologia."
+console.log(frase2.substr(0,11)) // Mergulhando
+
+const palavra="alura";
+console.log(palavra.toUpperCase()) //ALURA
+console.log(palavra.toLowerCase()) //alura
+
+const palavra2="Divertidamente"
+console.log(palavra2.indexOf("e")) //3
+
+const palavra3="Alura"
+console.log(palavra3.indexOf("a")) //4
+
+const palavra4="Alura"
+console.log(palavra4[0]) //A
+
+console.log("alura".charAt(3)) //r
+
+const palavra6="alura";
+console.log(palavra6.length) //5
+
+let login = "   andre@emailteste.com      ";
+let loginSemEspaco = login.trim();
+console.log(loginSemEspaco); //andre@emailteste.com
+
+
+// // Login
+
+
+// const lukeLogin = () => {
+//     let array = []
+//     for( i = 0; i < 90000; i++){
+//       array.push(i)
+//     }
+//     return "Luke logado com sucesso!"
+//   }
+  
+//   const leiaLogin = () => {
+//     let array = []
+//     for( i = 0; i < 90000; i++){
+//       array.push(i)
+//     }
+//     return "Leia logada com sucesso!"
+//   }
+  
+//   lukeLogin()
+//   leiaLogin()
+
+// //refatorando Login
+
+//   const acesso = (nome) => {
+//     return `${nome} logou com sucesso no sistema!`
+//   }
+  
+//   const autentica = (cargo) => {
+//     let array = []
+//     for( i = 0; i < cargo; i++){
+//       array.push(i)
+//     }
+//     return true;
+//   }
+  
+//   const loginRef = (pessoa, autentica) => {
+//     if(pessoa.cargo === `funcionario`) {
+//        autentica(90000)
+//     } else if(pessoa.cargo === `diretoria`) {
+//        autentica(900000)
+//     }
+//    return acesso(pessoa.nome)
+//   }
+
+
+// loginRef({cargo: `diretoria`, nome: `Leia`}, autentica)
+
