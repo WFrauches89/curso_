@@ -14,5 +14,8 @@ function sortOrder (list, property) {
 }
 
 const orderly = sortOrder(clientList, "nome" );
+const orderlyRev = orderly.reverse();
+
 
 console.log(orderly);
+console.log(orderlyRev);
